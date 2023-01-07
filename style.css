@@ -1,0 +1,114 @@
+/*
+Theme Name: Eventpro
+Theme URI: 
+Author: Limon Hossain
+Author URI: http://wordpress.org/
+Description: The eventpro theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style
+Text Domain: eventpro
+*/
+
+/* ------------------------------------------------------------------- 
+ * ## login form
+ * ------------------------------------------------------------------- */
+#login_section {
+  margin: 60px;
+  padding: 20px;
+}
+#login_section .login_text {
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+fieldset input[type="text"] {
+  display: block;
+  width: 800px;
+  height: 12px;
+  padding: 20px 0;
+  border: 0;
+  outline: none;
+  color: #151515;
+  font-family: "metropolis-regular", sans-serif;
+  font-size: 16px;
+  line-height: 46px;
+  max-width: 100%;
+  background: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+fieldset input[type="checkbox"] {
+  display: block;
+  visibility: visible;
+}
+
+/* .remember-me {
+    opacity: 1;
+    visibility: visible;
+} */
+.login {
+  background-color: #b21917;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+span.req {
+  color: #b21917;
+}
+
+.lost-password a {
+  color: #151515;
+  text-decoration: none;
+}
+.lost-password a:hover {
+  color: #b21917;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1200px) {
+  fieldset input[type="text"] {
+    width: 400px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #login_section .login_text {
+    font-size: 40px;
+  }
+  fieldset input[type="text"] {
+    width: 300px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 556px) {
+  #login_section .login_text {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  fieldset input[type="text"] {
+    width: 200px;
+    height: 8px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  #login_section .login_text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  fieldset input[type="text"] {
+    width: 150px;
+    height: 6px;
+  }
+}
