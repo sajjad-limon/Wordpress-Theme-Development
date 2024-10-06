@@ -1,2 +1,2 @@
 # Wordpress-Theme
-Wordpress themes projects will find here
+Wordpress theme projects will uploaded here
