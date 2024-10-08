@@ -1,2 +1,2 @@
-# Wordpress-Theme
-Wordpress theme projects will be uploaded here 
+# Wordpress-Theme-Development
+Wordpress theme development projects will be uploaded here 
