@@ -1,6 +1,7 @@
 <?php
 
 require_once ( get_theme_file_path( "/inc/tgm.php" ) );
+require_once ( get_theme_file_path( "/inc/acf-metaboxes.php" ) );
 require_once ( get_theme_file_path( "/inc/attachments.php" ) );
 require_once ( get_theme_file_path( "/widgets/social-icons-widget.php" ) );
 require_once ( get_theme_file_path( "/lib/csf/codestar-framework.php" ) );
