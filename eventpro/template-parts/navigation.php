@@ -18,8 +18,10 @@
     ));
     ?>
     <?php
-    if (is_active_sidebar('header-section')) {
+    if (is_active_sidebar('header-section')) 
+        {
         dynamic_sidebar('header-seection');
-    } ?>
+        } 
+    ?>
 
 </nav>
