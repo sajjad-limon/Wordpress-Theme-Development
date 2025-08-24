@@ -1,6 +1,5 @@
 <?php do_action('eventpro_event_page', is_page());
-get_header();
-?>
+get_header(); ?>
 
 <?php while (have_posts()):
     the_post(); ?>
